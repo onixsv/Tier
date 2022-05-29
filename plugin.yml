@@ -1,0 +1,21 @@
+name: Tier
+author: alvin0319
+main: Tier\TierPlugin
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  티어:
+    description: 티어 순위 보는 명령어입니다!
+    aliases: [ "tier" ]
+    permission: tier.command.use
+  티어관리:
+    description: 티어 관리 명령어입니다.
+    aliases: [ "tiermanage" ]
+    permission: tier.command.manage
+
+permissions:
+  tier.command.use:
+    default: true
+  tier.command.manage:
+    default: op
